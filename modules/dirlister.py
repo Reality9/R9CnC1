@@ -2,7 +2,7 @@
 import os
 def run(**args):
     print "[*] In dirlister module."
-    foles = os.listdir(".")
+    files = os.listdir(".")
     
     return str(files)
 
